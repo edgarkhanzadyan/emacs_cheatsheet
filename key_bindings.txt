@@ -10,3 +10,12 @@ C-r	Same as C-s, but search in reverse.
 M-<	Move to beginning of buffer.
 M->	Move to end of buffer.
 M-g g	Go to line.
+
+C-spc   Create a region
+M-x replace-string   replaces one string with another
+C-w Kill region.
+M-w Copy region to kill ring.
+C-y Yank.
+M-y Cycle through kill ring after yanking.
+M-d Kill word.
+C-k Kill line.
