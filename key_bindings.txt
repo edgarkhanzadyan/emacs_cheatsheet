@@ -19,3 +19,39 @@ C-y Yank.
 M-y Cycle through kill ring after yanking.
 M-d Kill word.
 C-k Kill line.
+
+C-M-f Move forward by s-expression
+C-M-b Move backward by s-expression
+
+C-M-d Move down into a list
+C-M-u Move up out of a list
+
+Typing C-M-u and C-M-k for kill-sexp will move up and kill the balanced expression you were just in
+
+on the same nested level
+C-M-n Move forward to the next list
+C-M-p Move backward to the previous list
+
+M-} Move forward to end of paragraph
+M-{ Move backward to start of paragraph
+
+
+M-a Move to beginning of sentence
+M-e Move to end of sentence
+
+C-M-a Move to beginning of defun
+C-M-e Move to end of defun
+
+
+C-x ] Moves forward one page
+C-x [ Moves backward one page
+
+C-v Scroll down one page
+M-v Scroll up one page
+C-M-v Scroll down the other window
+C-M-S-v Scroll up the other window
+
+M-< Move to the beginning of the buffer
+M-> Move to the end of the buffer
+
+C-u C-<SPC> go back to prev mark
